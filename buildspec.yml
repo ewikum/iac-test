@@ -3,6 +3,8 @@ phases:
   install:
     commands:
       - echo install phase...
+      - curl https://github.axa.com/axa-general-insurance
+      - git clone https://git:2390c7d3276c96d895ced9066737a1462c473d08@github.axa.com/axa-general-insurance/iac-test.git
       - env
   pre_build:
     commands:
